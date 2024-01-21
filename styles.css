@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif;
+    margin-top: 3% !important;
+}
+
+.title {
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-size: 16px;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+}
+
+h2,
+hr,
+.raspberry {
+    color: hsl(332, 51%, 32%) !important;
+}
